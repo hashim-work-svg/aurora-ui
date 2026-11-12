@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurora UI — High-Conversion Platform & Systems Architecture</title>
+  <meta name="description" content="Production-ready developer platform, high-speed API backends, and semantic web design. Built without bloat.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <span>⚡ Aurora UI</span>
+        <span class="badge">Production Ready</span>
+      </div>
+      <nav>
+        <a href="https://hashim.me.uk" class="btn btn-secondary">Portfolio</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Software Engineered to Perform.<br>Without The Theatre.</h1>
+        <p>Ultra-fast landing systems, deterministic backend pipelines, and pragmatic automation built by Hashim (@hashim_py).</p>
+        <div class="cta-group">
+          <a href="#calculator" class="btn btn-primary">Estimate Project Cost</a>
+          <a href="https://hashim.me.uk/tools.html" class="btn btn-secondary">Explore Live Developer Suite</a>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="feature-card">
+          <div class="feature-icon">🚀</div>
+          <h3>Sub-100ms Page Loads</h3>
+          <p>Semantic HTML5 and CSS variables with zero bloated JavaScript bundles. Instant Core Web Vitals compliance out of the box.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Deterministic Backends</h3>
+          <p>Python and FastAPI microservices with HMAC cryptographic validation and resilient retry queues.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Automated Data Pipelines</h3>
+          <p>Clean schema validation, boundary anomaly quarantine, and scheduled ingestion pipelines for real-time analytics.</p>
+        </div>
+      </section>
+
+      <section id="calculator" class="calculator-section">
+        <h2>Instant Scope & Budget Estimator</h2>
+        <p style="color: var(--text-muted);">Select your project scope below to see transparent turnaround estimates.</p>
+        
+        <div class="calc-inputs">
+          <div class="calc-control">
+            <label for="scopeSelect">Project Type</label>
+            <select id="scopeSelect">
+              <option value="landing">High-Converting Landing Page ($600 - $900)</option>
+              <option value="api">Python Backend / Webhook Pipeline ($500 - $800)</option>
+              <option value="fullstack">Full Web Application & Data Pipeline ($1,200 - $2,000)</option>
+            </select>
+          </div>
+          <div class="calc-control">
+            <label for="speedSelect">Turnaround Speed</label>
+            <select id="speedSelect">
+              <option value="rapid">Rapid Turnaround (3–5 Days)</option>
+              <option value="standard">Standard Sprint (1–2 Weeks)</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="estimateOutput" class="estimate-output">$750 USD · 4 Days</div>
+        <div style="margin-top: 20px;">
+          <a href="https://x.com/hashim_py" class="btn btn-primary">Book Project via Direct Message</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Hashim (<a href="https://x.com/hashim_py" style="color: var(--accent); text-decoration: none;">@hashim_py</a>) · Live tools: <a href="https://hashim.me.uk" style="color: var(--accent); text-decoration: none;">hashim.me.uk</a></p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
